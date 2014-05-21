@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    -#%link(href="/stylesheets/main.css" type="text/css")
+  %body
+    %h1 Welcome to Ilan. Have a nice day!
+    %h2 Process your files:
+    %ul
+      - for thumb in files:
+        %li
+          %img(src=thumb)
